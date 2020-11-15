@@ -1,0 +1,12 @@
+Na seção 2.1 é explicado como utilizar apenas um computador para simular
+uma rede. Ou seja, como cadastrar IPs na interface loopback do computador,
+a rede escolhida foi a 127.0.1.0/24. Esses IPs serão utilizados pelos programas
+teadores) que deverão ser desenvolvidos pelo aluno. Cada programa (roteador)
+ deverá dar bind em um IP diferente da rede 127.0.1.0/24 entre os IPs
+  cadastrados na interface loopback.
+Na seção 2.1 são comandos que você executa no terminal para configurar o seu Linux;
+ na seção 2.2 são comandos que você executa no seu programa para fazer as ligações
+  entre os roteadores do TP3.
+
+
+ip addr add <ip>/<prefixlen> dev <interface>
